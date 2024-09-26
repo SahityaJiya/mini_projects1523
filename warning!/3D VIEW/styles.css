@@ -1,0 +1,30 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+
+header {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+    color: white;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+#canvas-container {
+    width: 100vw;
+    height: 100vh;
+}

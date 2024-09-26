@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAHIYAJIYA-PORTFOLIO</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+     <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+     </header>
+
+     <section id="home" class="hero">
+        <h1>WELCOME TO MY PORTFOLIO !!!</h1>
+        <p>I'm Sahitya Jiya : YOUR WIZARD, A WEB DEVELOPER</p>
+        <button onclick="scrollToSection('projects')">Learn More</button>
+     </section>
+
+     <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project">
+                <img src="https://via.placeholder.com/400" alt="Project 1 Screenshot">
+                <h3>Project 1</h3>
+                <p>Description for Project 1</p>
+            </div>
+            <div class="project">
+                <img src="https://via.placeholder.com/400" alt="Project 2 Screenshot">
+                <h3>Project 2</h3>
+                <p>Description for Project 2</p>
+            </div>
+        </div>
+     </section>
+
+     <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
+            <p class="form-success" style="display: none; color: green;">Message sent successfully!</p>
+        </form>
+     </section>
+
+     <section id="comments" class="comments">
+        <h2>Comments</h2>
+        <div class="comment-grid">
+        </div>
+        <form id="comment-form">
+            <input type="text" placeholder="Name" required>
+            <textarea placeholder="Comment" required></textarea>
+            <button type="submit">Post</button>
+            <p class="comment-success" style="display: none; color: green;">Comment posted successfully!</p>
+        </form>
+     </section>
+
+     <footer>
+        <ul class="social-icons">
+            <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+        <p>&copy; Sahitya Jiya</p>
+     </footer>
+</body>
+</html>

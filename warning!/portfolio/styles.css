@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-image: linear-gradient(to bottom, #333, #555);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.hero h1, .hero p, .hero button {
+    margin: 0.5rem 0;
+}
+
+.hero button {
+    background-color: #f00;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+/* Projects Section */
+.projects {
+    padding: 2rem;
+    text-align: center;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.project {
+    padding: 1rem;
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 2rem;
+    text-align: center;
+}
+
+.contact input, .contact textarea {
+    display: block;
+    width: 80%;
+    margin: 0.5rem auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.contact button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer ul li {
+    display: inline;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Success messages */
+.form-success, .comment-success {
+    margin-top: 1rem;
+}
